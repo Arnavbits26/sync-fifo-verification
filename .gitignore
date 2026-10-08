@@ -1,0 +1,25 @@
+build/
+*.o
+__pycache__/
+# macOS
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Build / simulation outputs
+build/
+dist/
+out/
+*.log
+*.jou
+*.wdb
+*.str
+*.pb
+*.tmp
+
+# Generated simulator files
+work/
+xsim.dir/
+.cache/
